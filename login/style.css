@@ -8,7 +8,7 @@ body{
     width: 500px;
     height: 400px;
     text-align: center;
-    background-color: rgba(153, 140, 102,0.7);
+    background-color: rgb(52, 73, 94,0.7);
     border-radius: 4px;
     margin: 0 auto;
     margin-top: 150px;
@@ -27,9 +27,6 @@ input[type="text"], input[type="password"]{
     background-color: #fff;
     padding-left: 30px;
     
-}
-.form-input::border-left: {
-    content: "\f007";
 }
 
 .btn-login{
