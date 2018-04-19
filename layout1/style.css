@@ -1,3 +1,6 @@
+body{
+    width: 100%;
+}
 .header{
 	background: #ff9999;
 	width: 100%;
@@ -9,29 +12,34 @@
 	color: white;
     border-radius: 15px 50px;
     background: #333;
-    padding: 40px; 
+    padding: 0px 40px;
+    height: 100px;
     width: 300px;
-    height: 70px;
-    margin-left: 610px;  
+    height: 100%;
+    position: relative;
+    right: 0;
+    float: right;
+    bottom: 15%;
+
    }
 
 .header small{
 	font-size: 50%;
 	border-bottom: 2px solid #660000;
 }
-.menu{}
+
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 40%;
     overflow: hidden;
     background-color: #333;
     text-align: center;
-
 }
 
 li {
-    float: left; 
+    float: left;
+    display: inline-block;
 }
 
 li a {
@@ -40,7 +48,6 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-     position: center;
 }
 
 li a:hover {
